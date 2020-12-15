@@ -1,0 +1,36 @@
+USERS/topic_bigbro_harry.txt
+jul2116 Dec07'20-17:41:46 Dec07'20-17:42:14 0 |
+1 5 0 DY 0 22 22 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~childhood ~introductions #pending
+~childhood + 2 DDso2 iaaa 4 0 0 
+~introductions + 1 ~mr%6 da 5 0 0 
+#`end topics
+$cs_randindex=2650
+$cs_bot=Harry
+$cs_login=Bigbro
+$cs_token=75726583
+$cs_control_main=~control
+$userprompt=bigbro: >
+$botprompt=HARRY: 
+$singleresponse=1
+$shutup=1
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~honest_response 3 GRUNT 
+ hi
+ yes
+ howareyou
+ how are you
+ what is your name
+#`end user
+ Welcome to ChatScript.
+ Have you been here before?
+ Welcome back!
+ Indeed.
+ Did you run away from home when you were little?
+ My name is Harry Potter.
+#`end chatbot

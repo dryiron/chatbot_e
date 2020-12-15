@@ -1,0 +1,26 @@
+USERS/topic__amy.txt
+jul2116 Dec07'20-18:47:45 Dec07'20-18:55:08 0 |
+1 1 ~introductions !Mb Horz  DY 0 5 5 0 # start, input#, rejoindertopic,rejoinderid (a:  ( [ ~yes yes ] ) Welcome back! ),checksum
+~introductions #pending
+~introductions + 1 Horz ca 1 0 0 
+#`end topics
+$cs_randindex=1285
+$cs_bot=Amy
+$cs_token=75726583
+$cs_control_main=~control
+$userprompt=: >
+$botprompt=amy: 
+$singleresponse=1
+$shutup=1
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ tㄷㄴㅅ
+#`end user
+ Welcome to ChatScript.
+ Have you been here before?
+#`end chatbot

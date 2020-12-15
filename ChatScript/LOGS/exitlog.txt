@@ -1,0 +1,3 @@
+﻿FATAL: bad compile 4 - called myexit at Sat Nov 14 11:01:29 2020
+CS terminated at Sat Nov 14 11:01:29 2020
+bad binary entry rebuilding 4 - called myexit at Mon Dec 07 17:35:41 2020

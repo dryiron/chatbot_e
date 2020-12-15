@@ -1,0 +1,263 @@
+﻿Start: user:bigbro bot:harry ip: rand:2650 (~introductions) 0 ==> Welcome to ChatScript.  When:Dec07'20-17:41:46 Why:~introductions.1.0.~control.0.0  Version:10.1 Build0:Nov15'20-13:46:58 Build1:Nov26'20-11:30:45 0:Dec07'20-17:41:46 F:0 P:0
+Respond: user:bigbro bot:harry ip: (~introductions) 1   hi ==> Have you been here before?  When:Dec07'20-17:41:50 Why:~introductions.2.0.~control.9.0   F:6ms 
+Respond: user:bigbro bot:harry ip: (~introductions) 2   yes ==> Welcome back!  When:Dec07'20-17:41:53 Why:~introductions.2.1   F:1ms 
+Respond: user:bigbro bot:harry ip: (~introductions) 3   howareyou ==> Indeed.  When:Dec07'20-17:42:01 Why:~honest_response.45.0=GRUNT.~quibble_all.12.0   F:36ms 
+Respond: user:bigbro bot:harry ip: (~childhood) 4   how are you ==> Did you run away from home when you were little?  When:Dec07'20-17:42:08 Why:~childhood.0.0.~control.9.0   F:2ms 
+Respond: user:bigbro bot:harry ip: (~introductions) 5   what is your name ==> My name is Harry Potter.  When:Dec07'20-17:42:14 Why:~introductions.3.0.~control.9.0   F:3ms 
+Command: :build amy
+Start: user:bigbro bot:amy ip: rand:2650 (~introductions) 0 ==> Welcome to ChatScript.  When:Dec07'20-17:45:39 Why:~introductions.1.0.~control.0.0  Version:10.1 Build0:Nov15'20-13:46:58 Build1:Dec07'20-17:45:37 0:Dec07'20-17:45:39 F:0 P:0
+Respond: user:bigbro bot:amy ip: (~introductions) 1   what is your name ==> 내 이름은 에이미에요  When:Dec07'20-17:45:53 Why:~introductions.3.0.~control.9.0   F:2ms 
+Respond: user:bigbro bot:amy ip: (~introductions) 2   kpop 좋아해요? ==> Have you been here before?  When:Dec07'20-17:46:12 Why:~introductions.2.0.~control.9.0   F:24ms 
+Respond: user:bigbro bot:amy ip: (~childhood) 3   ㅏㅔㅐㅔ ==> Did you run away from home when you were little?  When:Dec07'20-17:46:17 Why:~childhood.0.0.~control.9.0   F:21ms 
+Respond: user:bigbro bot:amy ip: (~childhood) 4   kpop ==> I ran away once, but my parents found me and dragged me back.  When:Dec07'20-17:46:20 Why:~childhood.1.0=RUNAWAY.~control.9.0   F:0ms 
+Command: :build amy reset
+Start: user:bigbro bot:amy ip: rand:2650 (~introductions) 0 ==> Welcome to ChatScript.  When:Dec07'20-17:46:58 Why:~introductions.1.0.~control.0.0  Version:10.1 Build0:Nov15'20-13:46:58 Build1:Dec07'20-17:46:57 0:Dec07'20-17:45:39 F:0 P:Dec07'20-17:46:20
+Command: :build amy reset
+Start: user:bigbro bot:amy ip: rand:2650 (~introductions) 0 ==> Welcome to ChatScript.  When:Dec07'20-17:48:20 Why:~introductions.1.0.~control.0.0  Version:10.1 Build0:Nov15'20-13:46:58 Build1:Dec07'20-17:48:19 0:Dec07'20-17:45:39 F:0 P:Dec07'20-17:46:20
+Respond: user:bigbro bot:amy ip: (~introductions) 1   what is your name ==> 내 이름은 에이미에요  When:Dec07'20-17:48:30 Why:~introductions.3.0.~control.9.0   F:3ms 
+Respond: user:bigbro bot:amy ip: (~introductions) 2   kpop ==> Have you been here before?  When:Dec07'20-17:48:35 Why:~introductions.2.0.~control.9.0   F:1ms 
+Respond: user:bigbro bot:amy ip: (~childhood) 3   좋아해요 ==> Did you run away from home when you were little?  When:Dec07'20-17:48:40 Why:~childhood.0.0.~control.9.0   F:19ms 
+Respond: user:bigbro bot:amy ip: (~kpop) 4   투애니원 좋아해요 ==> 혹시 K-POP 좋아하세요?  When:Dec07'20-17:49:40 Why:~kpop.0.0=KPOPINTRO.~control.9.0   F:22ms 
+Respond: user:bigbro bot:amy ip: (~kpop) 5   음악 좋아해요? ==> 저는 K-POP을 좋아해요.  When:Dec07'20-17:49:52 Why:~kpop.1.0=FAVEKPOP.~control.9.0   F:20ms 
+Respond: user:bigbro bot:amy ip: (~childhood) 6   음악 ==> I ran away once, but my parents found me and dragged me back.  When:Dec07'20-17:50:01 Why:~childhood.1.0=RUNAWAY.~control.9.0   F:2ms 
+Respond: user:bigbro bot:amy ip: (~childhood) 7   좋아해요? ==> What scared you as a kid?  When:Dec07'20-17:50:05 Why:~childhood.2.0.~control.9.0   F:21ms 
+Respond: user:bigbro bot:amy ip: (~childhood) 8   투애니원 좋아해요? ==> I was scared of machines. I had vivid dreams of the Terminator robots.  When:Dec07'20-17:50:10 Why:~childhood.3.0=SCARE.~control.9.0   F:20ms 
+Command: :word 투애니원
+
+투애니원 (269854): 
+  Properties: NOUN_PROPER_SINGULAR 
+  SystemFlags: pattern_word verb_takes_indirect_then_verbinfinitive 
+  ParseBits:   
+  InternalBits: 0x1000 utf8 
+  Other:     canonical: 투애니원 
+  Direct Sets: ~투애니원 ~투애니원사전 
+  Facts:
+    ( 투애니원 member ~투애니원 x10 )
+    ( 투애니원 member ~투애니원사전 x10 )
+
+Command: :word 마마무
+
+마마무 (269861): 
+  Properties: NOUN_PROPER_SINGULAR 
+  SystemFlags: pattern_word verb_takes_indirect_then_verbinfinitive 
+  ParseBits:   
+  InternalBits: 0x1000 utf8 
+  Other:     canonical: 마마무 
+  Direct Sets: ~마마무 ~마마무사전 
+  Facts:
+    ( 마마무 member ~마마무 x10 )
+    ( 마마무 member ~마마무사전 x10 )
+
+Respond: user:bigbro bot:amy ip: (~childhood) 9   testpattern ( 음악 좋아*) 음악 좋아해요 ==> Did you have a happy childhood?  When:Dec07'20-17:52:45 Why:~childhood.4.0.~control.9.0   F:26ms 
+Respond: user:bigbro bot:amy ip: (~introductions) 9    ==> Welcome back  When:Dec07'20-17:53:01 Why:~introductions.0.0.~control.0.0   F:1ms 
+Command: :testpattern ( 음악 좋아*) 음악 좋아해요
+( 음악+ *좋아*- 
+------ Try pattern matching again, after word 1 (음악) ------ 
+음악-         Remaining pattern: 좋아* )
+ Failed
+    Original Input:  :testpattern ( 음악 좋아*) 음악 좋아해요                Adjusted Input: 음악 좋아해요 
+    Canonical Input: 음악 unknown-word 
+Command: :ㅅㄷ
+Respond: user:bigbro bot:amy ip: (~introductions) 10   :ㅅㄷ ==> I don't know what to say.  When:Dec07'20-17:54:00 Why:~control.9.0.~control.9.0   F:12ms 
+Command: :testpattern (음악 좋아) 음악 좋아해요
+( 음악+ 좋아- 
+------ Try pattern matching again, after word 1 (음악) ------ 
+음악-         Remaining pattern: 좋아 )
+ Failed
+    Original Input:  :testpattern (음악 좋아) 음악 좋아해요                Adjusted Input: 음악 좋아해요 
+    Canonical Input: 음악 unknown-word 
+Command: :testpattern ( 음악 좋아* ) 음악 좋아해요
+( 음악+ *좋아*- 
+------ Try pattern matching again, after word 1 (음악) ------ 
+음악-         Remaining pattern: 좋아* )
+ Failed
+    Original Input:  :testpattern ( 음악 좋아* ) 음악 좋아해요                Adjusted Input: 음악 좋아해요 
+    Canonical Input: 음악 unknown-word 
+Command: :verify ~kpop
+VERIFYING ~kpop ......
+1 Missing keyword ~kpop.2.0 <=  음악 좋아해요?
+Pattern failed to match 2 ~kpop.2.0:  음악 좋아해요? => ?:  ( 음악 *좋아* ) 
+    Adjusted Input: 음악 좋아해요 
+    Canonical Input: 음악 unknown-word 
+
+Pattern failed to match 3 ~kpop.3.0:  투애니원 좋아해요? => ?:  ( 투애니원 *좋아* ) 
+    Adjusted Input: 투애니원 좋아해요 
+    Canonical Input: 투애니원 unknown-word 
+
+3 verify findings of 2 trials.
+Command: :testpattern (음악*) 음악
+( *음악*-         Remaining pattern: )
+ Failed
+    Original Input:  :testpattern (음악*) 음악                Adjusted Input: 음악 
+    Canonical Input: 음악 
+Command: :testpattern (음악*) 음악을
+( *음악*-         Remaining pattern: )
+ Failed
+    Original Input:  :testpattern (음악*) 음악을                Adjusted Input: 음악 
+    Canonical Input: 음악 
+Command: :testpattern (음악) 음악
+( 음악+ )+
+ Matched
+
+Command: :testpattern (좋아) 좋아해요
+( 좋아-         Remaining pattern: )
+ Failed
+    Original Input:  :testpattern (좋아) 좋아해요                Adjusted Input: 좋아해요 
+    Canonical Input: 좋아해요 
+Command: :testpattern ( test*) testdoing
+( *test*(test)+ )+
+ Matched
+
+Respond: user:bigbro bot:amy ip: (~introductions) 11   : ==> I don't know what to say.  When:Dec07'20-18:02:24 Why:~control.9.0.~control.9.0   F:2ms 
+Command: :testpattern ( 음악 좋아*) 음악 좋아해요
+( 음악+ *좋아*- 
+------ Try pattern matching again, after word 1 (음악) ------ 
+음악-         Remaining pattern: 좋아* )
+ Failed
+    Original Input:  :testpattern ( 음악 좋아*) 음악 좋아해요                Adjusted Input: 음악 좋아해요 
+    Canonical Input: 음악 unknown-word 
+Respond: user:bigbro bot:amy ip: (~introductions) 12   : ==> I don't know what to say.  When:Dec07'20-18:05:51 Why:~control.9.0.~control.9.0   F:3ms 
+Command: :testpa음악 아 *) 음악 좋아해요
+Respond: user:bigbro bot:amy ip: (~introductions) 13   :testpa음악 아 *) 음악 좋아해요 ==> I don't know what to say.  When:Dec07'20-18:06:52 Why:~control.9.0.~control.9.0   F:50ms 
+Command: :testpattern (음악 좋아 *) 음악 좋아해요
+( 음악+ 좋아- 
+------ Try pattern matching again, after word 1 (음악) ------ 
+음악-         Remaining pattern: 좋아 * )
+ Failed
+    Original Input:  :testpattern (음악 좋아 *) 음악 좋아해요                Adjusted Input: 음악 좋아해요 
+    Canonical Input: 음악 unknown-word 
+Respond: user:bigbro bot:amy ip: (~introductions) 14   투애니원 좋아해요 ==> I don't know what to say.  When:Dec07'20-18:07:45 Why:~control.9.0.~control.9.0   F:21ms 
+Respond: user:bigbro bot:amy ip: (~introductions) 15   음악 좋아해요 ? ==> I don't know what to say.  When:Dec07'20-18:07:52 Why:~control.9.0.~control.9.0   F:21ms 
+Respond: user:bigbro bot:amy ip: (~introductions) 16   음악 좋아? ==> I don't know what to say.  When:Dec07'20-18:07:56 Why:~control.9.0.~control.9.0   F:4ms 
+Respond: user:bigbro bot:amy ip: (~introductions) 17   음악 좋아 ==> I don't know what to say.  When:Dec07'20-18:08:00 Why:~control.9.0.~control.9.0   F:5ms 
+Respond: user:bigbro bot:amy ip: (~introductions) 18   음악 좋아 ==> I don't know what to say.  When:Dec07'20-18:08:14 Why:~control.9.0.~control.9.0   F:4ms 
+Command: :build amy reset
+Start: user:bigbro bot:amy ip: rand:2650 (~introductions) 0 ==> Welcome to ChatScript.  When:Dec07'20-18:08:24 Why:~introductions.1.0.~control.0.0  Version:10.1 Build0:Nov15'20-13:46:58 Build1:Dec07'20-18:08:22 0:Dec07'20-17:45:39 F:1607332072-4.9.0.4.9.0 P:Dec07'20-18:08:14
+Respond: user:bigbro bot:amy ip: (~introductions) 1   음악 좋아  ==> Have you been here before?  When:Dec07'20-18:08:29 Why:~introductions.2.0.~control.9.0   F:2ms 
+Respond: user:bigbro bot:amy ip: (~kpop) 2   음악 ==> 혹시 K-POP 좋아하세요?  When:Dec07'20-18:08:32 Why:~kpop.0.0=KPOPINTRO.~control.9.0   F:2ms 
+Respond: user:bigbro bot:amy ip: (~kpop) 3   좋아 ==> 저는 K-POP을 좋아해요.  When:Dec07'20-18:08:35 Why:~kpop.1.0=FAVEKPOP.~control.9.0   F:1ms 
+Respond: user:bigbro bot:amy ip: (~childhood) 4   음악 좋아 ==> Did you run away from home when you were little?  When:Dec07'20-18:08:39 Why:~childhood.0.0.~control.9.0   F:1ms 
+Respond: user:bigbro bot:amy ip: (~introductions) 4    ==> Hi, again.  When:Dec07'20-18:08:53 Why:~introductions.0.0.~control.0.0   F:0ms 
+Respond: user:bigbro bot:amy ip: (~introductions) 4    ==> Welcome back  When:Dec07'20-18:08:53 Why:~introductions.0.0.~control.0.0   F:0ms 
+Command: :build amy reset
+Start: user:bigbro bot:amy ip: rand:2650 (~introductions) 0 ==> Welcome to ChatScript.  When:Dec07'20-18:09:16 Why:~introductions.1.0.~control.0.0  Version:10.1 Build0:Nov15'20-13:46:58 Build1:Dec07'20-18:09:15 0:Dec07'20-17:45:39 F:1607332072-4.9.0.4.9.0 P:Dec07'20-18:08:53
+Respond: user:bigbro bot:amy ip: (~introductions) 0    ==> Have you been here before?  When:Dec07'20-18:09:21 Why:~introductions.2.0.~control.0.0   F:0ms 
+Respond: user:bigbro bot:amy ip: (~kpop) 1   투애니원 좋아 ==> 혹시 K-POP 좋아하세요?  When:Dec07'20-18:09:25 Why:~kpop.0.0=KPOPINTRO.~control.9.0   F:2ms 
+Respond: user:bigbro bot:amy ip: (~kpop) 2   투애니원 좋아해요? ==> 저는 K-POP을 좋아해요.  When:Dec07'20-18:09:42 Why:~kpop.1.0=FAVEKPOP.~control.9.0   F:21ms 
+Respond: user:bigbro bot:amy ip: (~introductions) 2    ==> Hello, again.  When:Dec07'20-18:09:44 Why:~introductions.0.0.~control.0.0   F:0ms 
+Respond: user:bigbro bot:amy ip: (~childhood) 3   : ==> Did you run away from home when you were little?  When:Dec07'20-18:13:54 Why:~childhood.0.0.~control.9.0   F:3ms 
+Respond: user:bigbro bot:amy ip: (~introductions) 3    ==> Glad you came back.  When:Dec07'20-18:13:54 Why:~introductions.0.0.~control.0.0   F:0ms 
+Command: :source test.txt
+Command: :testpattern (음악 좋아*) 음악 좋아해요
+( 음악+ *좋아*- 
+------ Try pattern matching again, after word 1 (음악) ------ 
+음악-         Remaining pattern: 좋아* )
+ Failed
+    Original Input:  :testpattern (음악 좋아*) 음악 좋아해요                Adjusted Input: 음악 좋아해요 
+    Canonical Input: 음악 unknown-word 
+Sourcefile Time used 23 ms for 0 sentences 0 tokens.
+Command: :source test.txt
+Command: :testpattern (음악 좋아*) 음악 좋아해요
+( 음악+ *좋아*- 
+------ Try pattern matching again, after word 1 (음악) ------ 
+음악-         Remaining pattern: 좋아* )
+ Failed
+    Original Input:  :testpattern (음악 좋아*) 음악 좋아해요                Adjusted Input: 음악 좋아해요 
+    Canonical Input: 음악 unknown-word 
+Sourcefile Time used 22 ms for 0 sentences 0 tokens.
+Command: :source test.txt
+Command: :testpattern (음악 좋아) 음악 좋아해요
+( 음악+ 좋아- 
+------ Try pattern matching again, after word 1 (음악) ------ 
+음악-         Remaining pattern: 좋아 )
+ Failed
+    Original Input:  :testpattern (음악 좋아) 음악 좋아해요                Adjusted Input: 음악 좋아해요 
+    Canonical Input: 음악 unknown-word 
+Sourcefile Time used 22 ms for 0 sentences 0 tokens.
+Respond: user:bigbro bot:amy ip: (~childhood) 4   do you like music ==> I ran away once, but my parents found me and dragged me back.  When:Dec07'20-18:17:59 Why:~childhood.1.0=RUNAWAY.~control.9.0   F:3ms 
+Respond: user:bigbro bot:amy ip: (~childhood) 5   do you know kpop? ==> What scared you as a kid?  When:Dec07'20-18:18:09 Why:~childhood.2.0.~control.9.0   F:2ms 
+Command: :ㅠ
+Respond: user:bigbro bot:amy ip: (~childhood) 6   :ㅠ ==>   When:Dec07'20-18:27:26   F:8ms 
+Command: :build amy reset
+Start: user:bigbro bot:amy ip: rand:2650 (~introductions) 0 ==> Welcome to ChatScript.  When:Dec07'20-18:27:37 Why:~introductions.1.0.~control.0.0  Version:10.1 Build0:Nov15'20-13:46:58 Build1:Dec07'20-18:27:35 0:Dec07'20-17:45:39 F:1607332072-4.9.0.4.9.0 P:Dec07'20-18:27:26
+Command: :source test.txt
+Command: :testpattern (음악 좋아*) 음악 좋아해요
+( 음악+ *좋아*- 
+------ Try pattern matching again, after word 1 (음악) ------ 
+음악-         Remaining pattern: 좋아* )
+ Failed
+    Original Input:  :testpattern (음악 좋아*) 음악 좋아해요                Adjusted Input: 음악 좋아해요 
+    Canonical Input: 음악 unknown-word 
+Sourcefile Time used 23 ms for 0 sentences 0 tokens.
+Respond: user:bigbro bot:amy ip: (~introductions) 1   : ==> Have you been here before?  When:Dec07'20-18:28:16 Why:~introductions.2.0.~control.9.0   F:2ms 
+Command: :source test.txt
+Command: :testpattern (음악 *좋아) 음악 좋아해요
+( 음악+ **좋아- 
+------ Try pattern matching again, after word 1 (음악) ------ 
+음악-         Remaining pattern: **좋아 )
+ Failed
+    Original Input:  :testpattern (음악 *좋아) 음악 좋아해요                Adjusted Input: 음악 좋아해요 
+    Canonical Input: 음악 unknown-word 
+Sourcefile Time used 23 ms for 0 sentences 0 tokens.
+Respond: user:bigbro bot:amy ip: (~kpop) 2   source test.txt ==> 혹시 K-POP 좋아하세요?  When:Dec07'20-18:28:56 Why:~kpop.0.0=KPOPINTRO.~control.9.0   F:2ms 
+Command: :source test.txt
+Command: :testpattern (음악 좋아) 음악 좋아해요
+( 음악+ 좋아- 
+------ Try pattern matching again, after word 1 (음악) ------ 
+음악-         Remaining pattern: 좋아 )
+ Failed
+    Original Input:  :testpattern (음악 좋아) 음악 좋아해요                Adjusted Input: 음악 좋아해요 
+    Canonical Input: 음악 unknown-word 
+Sourcefile Time used 22 ms for 0 sentences 0 tokens.
+Command: :help
+Respond: user:bigbro bot:amy ip: (~kpop) 3   :help ==> 저는 K-POP을 좋아해요.  When:Dec07'20-18:29:14 Why:~kpop.1.0=FAVEKPOP.~control.9.0   F:22ms 
+Respond: user:bigbro bot:amy ip: (~childhood) 4   :* ==> Did you run away from home when you were little?  When:Dec07'20-18:35:31 Why:~childhood.0.0.~control.9.0   F:5ms 
+Respond: user:bigbro bot:amy ip: (~childhood) 5   음악* ==> I ran away once, but my parents found me and dragged me back.  When:Dec07'20-18:35:37 Why:~childhood.1.0=RUNAWAY.~control.9.0   F:4ms 
+Respond: user:bigbro bot:amy ip: (~childhood) 6   testpattern (음악*) 악을 ==> What scared you as a kid?  When:Dec07'20-18:35:55 Why:~childhood.2.0.~control.9.0   F:13ms 
+Respond: user:bigbro bot:amy ip: (~childhood) 7   : ==> I was scared of machines. I had vivid dreams of the Terminator robots.  When:Dec07'20-18:36:01 Why:~childhood.3.0=SCARE.~control.9.0   F:1ms 
+Command: :testpattern (음악*)악을
+( *음악*-         Remaining pattern: )
+ Failed
+    Original Input:  :testpattern (음악*)악을                Adjusted Input: 음악 
+    Canonical Input: 음악 
+Command: :ㅅㄷㄴ
+Respond: user:bigbro bot:amy ip: (~childhood) 8   :ㅅㄷㄴ ==> Did you have a happy childhood?  When:Dec07'20-18:38:17 Why:~childhood.4.0.~control.9.0   F:17ms 
+Command: :testpatte음악 좋아*) 음악 좋아해요
+Respond: user:bigbro bot:amy ip: (~childhood) 9   :testpatte음악 좋아*) 음악 좋아해요 ==> I don't know what to say.  When:Dec07'20-18:39:15 Why:~control.9.0.~control.9.0   F:38ms 
+Command: :퍄ㅡ
+Respond: user:bigbro bot:amy ip: (~childhood) 10   :퍄ㅡ ==> I don't know what to say.  When:Dec07'20-18:39:24 Why:~control.9.0.~control.9.0   F:8ms 
+Command: :ㅍ
+Respond: user:bigbro bot:amy ip: (~childhood) 11   :ㅍ ==> I don't know what to say.  When:Dec07'20-18:39:28 Why:~control.9.0.~control.9.0   F:4ms 
+Command: :vim
+Respond: user:bigbro bot:amy ip: (~childhood) 12   :vim ==> I don't know what to say.  When:Dec07'20-18:39:30 Why:~control.9.0.~control.9.0   F:15ms 
+Command: :quit
+Exiting ChatScript via Quit
+Start: user:bigbro bot:amy ip: rand:1150757359 (~introductions) 12 ==> Hi, again.  When:Dec07'20-22:04:12 Why:~introductions.0.0.~control.0.0  Version:10.1 Build0:Nov15'20-13:46:58 Build1:Dec07'20-18:55:00 0:Dec07'20-17:45:39 F:1607332072-4.9.0.4.9.0 P:Dec07'20-18:39:30
+Respond: user:bigbro bot:amy ip: (~introductions) 13   what is your name ==> 내 이름은 에이미에요  When:Dec07'20-22:04:22 Why:~introductions.3.0.~control.9.0   F:8ms 
+Respond: user:bigbro bot:amy ip: (~introductions) 14   음악 좋아해? ==> I don't know what to say.  When:Dec07'20-22:04:29 Why:~control.9.0   F:16ms 
+Respond: user:bigbro bot:amy ip: (~introductions) 15   kpop ==> I don't know what to say.  When:Dec07'20-22:04:36 Why:~control.9.0.~control.9.0   F:2ms 
+Respond: user:bigbro bot:amy ip: (~introductions) 16   today ==> I don't know what to say.  When:Dec07'20-22:04:45 Why:~control.9.0.~control.9.0   F:3ms 
+Command: :build amy reset
+Start: user:bigbro bot:amy ip: rand:2650 (~introductions) 0 ==> Welcome to ChatScript.  When:Dec07'20-22:04:59 Why:~introductions.1.0.~control.0.0  Version:10.1 Build0:Nov15'20-13:46:58 Build1:Dec07'20-22:04:57 0:Dec07'20-17:45:39 F:1607332072-4.9.0.4.9.0 P:Dec07'20-22:04:45
+Respond: user:bigbro bot:amy ip: (~introductions) 1   음악 좋아해요? ==> Have you been here before?  When:Dec07'20-22:05:05 Why:~introductions.2.0.~control.9.0   F:25ms 
+Respond: user:bigbro bot:amy ip: (~childhood) 2   word 투애니원 ==> Did you run away from home when you were little?  When:Dec07'20-22:07:04 Why:~childhood.0.0.~control.9.0   F:6ms 
+Respond: user:bigbro bot:amy ip: (~introductions) 2    ==> Hello, again.  When:Dec07'20-22:07:10 Why:~introductions.0.0.~control.0.0   F:1ms 
+Command: :word 투애니원
+
+투애니원 (269854): 
+  Properties: NOUN_PROPER_SINGULAR 
+  SystemFlags: pattern_word verb_takes_indirect_then_verbinfinitive 
+  ParseBits:   
+  InternalBits: 0x1000 utf8 
+  Other:     canonical: 투애니원 
+  Direct Sets: ~투애니원사전 
+  Facts:
+    ( 투애니원 member ~투애니원사전 x10 )
+
+Respond: user:bigbro bot:amy ip: (~introductions) 2    ==> Glad you came back.  When:Dec07'20-22:09:25 Why:~introductions.0.0.~control.0.0   F:1ms 
+Respond: user:bigbro bot:amy ip: (~childhood) 3   verify ~kpop ==> I ran away once, but my parents found me and dragged me back.  When:Dec07'20-22:09:36 Why:~childhood.1.0=RUNAWAY.~control.9.0   F:2ms 
+Command: :verify ~kpop
+0 verify findings of 0 trials.
+Command: :verify ~kpop2
+0 verify findings of 0 trials.
+Command: :build amy reset

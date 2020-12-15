@@ -1,0 +1,32 @@
+﻿USERS/topic_bigbro_amy.txt
+jul2116 Dec07'20-17:45:39 Dec07'20-22:09:25 1607332072-4.9.0.4.9.0 |
+3 2 0 DY 0 5 5 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~childhood ~introductions #pending
+~childhood + 2 DDso2 iaaa 2 0 0 
+~introductions + 1 Horz ca 2 0 0 
+#`end topics
+$shutup=1
+$singleresponse=1
+$botprompt=amy: 
+$userprompt=bigbro: >
+$cs_control_main=~control
+$cs_token=75726583
+$cs_login=bigbro
+$cs_bot=Amy
+$cs_randindex=2650
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ 음악 좋아해요?
+ word 투애니원
+#`end user
+ Welcome to ChatScript.
+ Have you been here before?
+ Did you run away from home when you were little?
+ Hello, again.
+ Glad you came back.
+#`end chatbot

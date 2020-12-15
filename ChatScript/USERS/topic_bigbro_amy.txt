@@ -1,0 +1,34 @@
+USERS/topic_bigbro_amy.txt
+jul2116 Dec07'20-17:45:39 Dec07'20-22:09:36 1607332072-4.9.0.4.9.0 |
+3 3 0 DY 0 5 5 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions ~childhood #pending
+~childhood + 2 DDso2 maaa 3 0 0 
+~introductions + 1 Horz ca 2 0 0 
+#`end topics
+$cs_randindex=2650
+$cs_bot=Amy
+$cs_login=bigbro
+$cs_token=75726583
+$cs_control_main=~control
+$userprompt=bigbro: >
+$botprompt=amy: 
+$singleresponse=1
+$shutup=1
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~childhood 3 RUNAWAY 
+ 음악 좋아해요?
+ word 투애니원
+ verify ~kpop
+#`end user
+ Welcome to ChatScript.
+ Have you been here before?
+ Did you run away from home when you were little?
+ Hello, again.
+ Glad you came back.
+ I ran away once, but my parents found me and dragged me back.
+#`end chatbot

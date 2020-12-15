@@ -1,0 +1,15 @@
+concept: ~투애니원 [ 투애니원 2ne1 two anyone 뚜애니원 투에니원 공산박씨 ]
+concept: ~티아라 [ 티아라 tara t-ara ]
+concept: ~마마무 [ 마마무 맘마무 맘무 mama moo mammamo ]
+concept: ~음악 [ 노래 곡 음악 kpop 가사 song 공연 공연장 콘서트 컨서트 ]
+
+Topic: ~KPOP keep repeat [ ~투애니원 ~티아라 ~마마무 ~노래 ]
+
+t: KPOPINTRO () 혹시 K-POP 좋아하세요?
+t: FaveKPOP () 저는 K-POP을 좋아해요.
+
+#! 음악 좋아해요?
+?: ( 음악 좋아*) reuse(FaveKPOP)
+
+#! 투애니원 좋아해요?
+?:( 투애니원 좋아*) 예. 저는 투애니원을 무척 좋아해요.

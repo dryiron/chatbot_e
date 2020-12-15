@@ -1,0 +1,4 @@
+﻿~\'c5\'f5\'be\'d6\'b4\'cf\'bf\'f8 line 13 column 60 in kpop.top
+~\'c6\'bc\'be\'c6\'b6\'f3 line 13 column 86 in kpop.top
+~\'b8\'b6\'b8\'b6\'b9\'ab line 13 column 112 in kpop.top
+~\'b3\'eb\'b7\'a1 line 13 column 130 in kpop.top

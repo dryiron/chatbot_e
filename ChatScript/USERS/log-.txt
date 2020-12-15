@@ -1,0 +1,46 @@
+﻿Start: user: bot:amy ip: rand:1285 (~introductions) 0 ==> Welcome to ChatScript.  When:Dec07'20-18:47:45 Why:~introductions.1.0.~control.0.0  Version:10.1 Build0:Nov15'20-13:46:58 Build1:Dec07'20-18:27:35 0:Dec07'20-18:47:45 F:0 P:0
+Respond: user: bot:amy ip: (~introductions) 1   hello ==> Have you been here before?  When:Dec07'20-18:47:53 Why:~introductions.2.0.~control.9.0   F:5ms 
+Respond: user: bot:amy ip: (~introductions) 2   no ==> Then welcome to your first time.  When:Dec07'20-18:47:56 Why:~introductions.2.2   F:2ms 
+Respond: user: bot:amy ip: (~childhood) 3   good ==> Did you run away from home when you were little?  When:Dec07'20-18:48:02 Why:~childhood.0.0.~control.9.0   F:3ms 
+Respond: user: bot:amy ip: (~introductions) 4   what is your name ==> 내 이름은 에이미에요  When:Dec07'20-18:48:12 Why:~introductions.3.0.~control.9.0   F:3ms 
+Command: :음악 좋아해요?
+Respond: user: bot:amy ip: (~kpop) 5   :음악 좋아해요? ==> 혹시 K-POP 좋아하세요?  When:Dec07'20-18:48:21 Why:~kpop.0.0=KPOPINTRO.~control.9.0   F:27ms 
+Respond: user: bot:amy ip: (~kpop) 6   아니요 ==> 저는 K-POP을 좋아해요.  When:Dec07'20-18:48:26 Why:~kpop.1.0=FAVEKPOP.~control.9.0   F:7ms 
+Respond: user: bot:amy ip: (~childhood) 7   투애니원 좋아해요? ==> I ran away once, but my parents found me and dragged me back.  When:Dec07'20-18:48:31 Why:~childhood.1.0=RUNAWAY.~control.9.0   F:21ms 
+Command: :testpattern (음악 좋아*) 음악 좋아해요?
+( 음악+ *좋아*- 
+------ Try pattern matching again, after word 1 (음악) ------ 
+음악-         Remaining pattern: 좋아* )
+ Failed
+    Original Input:  :testpattern (음악 좋아*) 음악 좋아해요?                Adjusted Input: 음악 좋아해요 
+    Canonical Input: 음악 unknown-word 
+Command: :내ㅕ
+Respond: user: bot:amy ip: (~childhood) 8   :내ㅕ ==> What scared you as a kid?  When:Dec07'20-18:48:53 Why:~childhood.2.0.~control.9.0   F:8ms 
+Command: :source test.txt
+Command: :testpattern (음악 좋아) 음악 좋아해요
+( 음악+ 좋아- 
+------ Try pattern matching again, after word 1 (음악) ------ 
+음악-         Remaining pattern: 좋아 )
+ Failed
+    Original Input:  :testpattern (음악 좋아) 음악 좋아해요                Adjusted Input: 음악 좋아해요 
+    Canonical Input: 음악 unknown-word 
+Sourcefile Time used 21 ms for 0 sentences 0 tokens.
+Command: :build amy reset
+Start: user: bot:amy ip: rand:1285 (~introductions) 0 ==> Welcome to ChatScript.  When:Dec07'20-18:55:01 Why:~introductions.1.0.~control.0.0  Version:10.1 Build0:Nov15'20-13:46:58 Build1:Dec07'20-18:55:00 0:Dec07'20-18:47:45 F:0 P:Dec07'20-18:48:53
+Respond: user: bot:amy ip: (~introductions) 1   tㄷㄴㅅ ==> Have you been here before?  When:Dec07'20-18:55:08 Why:~introductions.2.0.~control.9.0   F:20ms 
+Command: :testpattern (음악 좋아*) 음악 좋아해요
+( 음악+ *좋아*- 
+------ Try pattern matching again, after word 1 (음악) ------ 
+음악-         Remaining pattern: 좋아* )
+ Failed
+    Original Input:  :testpattern (음악 좋아*) 음악 좋아해요                Adjusted Input: 음악 좋아해요 
+    Canonical Input: 음악 unknown-word 
+Command: :testpattern (music* ) musicismylife
+( *music*(musicismylife)+ )+
+ Matched
+
+Command: :testpattern (음악* ) 음악좋아해요
+( *음악*-         Remaining pattern: )
+ Failed
+    Original Input:  :testpattern (음악* ) 음악좋아해요                Adjusted Input: 음악좋아해요 
+    Canonical Input: 음악좋아해요 
